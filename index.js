@@ -35,7 +35,7 @@ async function run() {
 
         //NEW ONE
         app.get('/hello', (req, res) =>{
-            res.send('hello updated here');
+            res.send('hello updated');
         })
 
         //GET SINGLE SERVICE 
