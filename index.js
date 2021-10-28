@@ -75,5 +75,5 @@ app.get ('/', (req, res) =>{
 });
 
 app.listen(port, () =>{
-    console.log('Running Genius server on part', port)
+    console.log('Genius server on part', port)
 })
