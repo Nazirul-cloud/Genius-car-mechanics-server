@@ -31,6 +31,11 @@ async function run() {
             const services = await cursor.toArray();
             res.send(services);
             console.log(services);
+        });
+
+        //NEW ONE
+        app.get('/hello', (req, res) =>{
+            res.send('hello updated here');
         })
 
         //GET SINGLE SERVICE 
